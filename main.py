@@ -2,8 +2,8 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 
-fig, ax = plt.subplot() 
+fig, ax = plt.subplots() 
 
-ax.plot([1,2,3,4,5,6,7,8,9,10], [10,9,8,7,6,5,4,3,2,1]);
+ax.plot([1,2,3,4,5,6,7,8,9,10],[1,2,3,4,5,6,7,8,9,10])
 
-plt.savefig("my_graph.png")
+plt.savefig("MyGraph.png")
